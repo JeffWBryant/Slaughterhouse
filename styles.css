@@ -1,0 +1,300 @@
+body {
+  min-height: 100vh;
+  background-color:black;
+  margin:0;
+  padding:0;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 24px;
+  text-shadow: 2px 2px #000000;
+}
+
+.standardFont, h1, h3 {
+  font-family: DoubleFeature, Arial, sans-serif;
+  text-shadow: 2px 2px #ff0000;
+
+}
+
+@font-face {
+  font-family: 'DoubleFeature'; 
+  src: url('fonts/DoubleFeature.ttf'); 
+}
+
+.insomniaFont {
+  font-family: insomnia, Arial, sans-serif;
+  text-shadow: 2px 2px #ff0000;
+
+}
+
+@font-face {
+  font-family: 'insomnia'; 
+  src: url('fonts/insomnia.ttf'); 
+}
+
+.MacabreFont {
+  font-family: Macabre, Arial, sans-serif;
+  text-shadow: 2px 2px #ff0000;
+
+}
+
+@font-face {
+  font-family: 'Macabre'; 
+  src: url('fonts/Macabre.otf'); 
+}
+
+.SCRIPTIN {
+  font-family: SCRIPTIN, Arial, sans-serif;
+  text-shadow: 2px 2px #ffffff;
+  font-size: 64px;
+
+}
+
+@font-face {
+  font-family: 'SCRIPTIN'; 
+  src: url('fonts/SCRIPTIN.ttf'); 
+}
+
+header {
+    position: relative; 
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 0%;
+    min-height: 0%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("img/background.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.clearfix::after,
+.calendar ol::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+section{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+section.sec1{
+  background: url(img/background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+section.sec2{
+  background: url(img/bg-Hallway.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+/* ================
+   Calendar Styling 
+   ================ */
+
+.calendar {
+  border-radius: 10px;
+  color:rgb(194, 74, 74);
+}
+
+.month {
+  font-size: 2rem;
+  color:rgb(194, 74, 74);
+}
+
+@media (min-width: 992px) {
+  .month {
+    font-size: 3.5rem;
+  }
+}
+
+.calendar ol li {
+  float: left;
+  width: 14.28571%;
+}
+
+.calendar .day-names {
+  border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+.calendar .day-names li {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.calendar .days li {
+  border-bottom: 1px solid rgb(255, 0, 0);
+  min-height: 8rem;
+}
+
+.calendar .days li .date {
+  margin: 0.5rem 0;
+}
+
+.calendar .days li .event {
+  font-size: 1.25rem;
+  padding: 0.4rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4rem;
+  margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2 {
+  width: 200%;
+}
+
+.calendar .days li .event.begin {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.calendar .days li .event.end {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li .event.clear {
+  background: none;
+}
+
+.calendar .days li:nth-child(n+29) {
+  border-bottom: none;
+}
+
+.calendar .days li.outside .date {
+  color: #ddd;
+}
+ 
+
+
+/*--- Social Section --*/
+.social a {
+    font-size:4.5em;
+    padding:3rem;
+    
+  }
+  
+  .fa-facebook {
+    color:rgb(221, 48, 48);
+    height: 50px;
+  }
+  
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+#videoBG {
+    position:absolute;
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: 100%;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:100%;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+  #videoBG { 
+    width:auto;
+    height: 50%;
+  }
+}
+
+.carousel-item img{
+  width: 400px;
+  height: 445px;
+  max-height: 545px;
+  margin: auto; 
+  display: block;
+  }
+
+  .centerImg {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+
+  button.navbar-toggler.navbar-toggler-right {
+    border-color: rgb(255, 255, 255);
+  }
+
+  #Information {
+    background-color: rgba(0,0,0,.7);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+  }
+
+  .divSpacer{
+    padding-top: 5%;
+  }
+
+  .sec1 {
+    padding-top: 10%;
+  }
+
+  .sec2 {
+    padding-top: 10%;
+  }
+
+  .centerIframe {
+    display:block;
+  }
+
+
