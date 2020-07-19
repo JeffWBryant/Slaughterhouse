@@ -286,11 +286,11 @@ section.sec2{
   }
 
   .sec1 {
-    padding-top: 10%;
+    padding-top: 15%;
   }
 
   .sec2 {
-    padding-top: 10%;
+    padding-top: 15%;
   }
 
   .centerIframe {
@@ -305,4 +305,9 @@ section.sec2{
   .whiteTextAlignRight {
     color: white;
     text-align:right;
+  }
+
+  .whiteTextCenter {
+    color: white;
+    text-align:center;
   }
