@@ -128,8 +128,16 @@ section.sec1{
   background-position: center center;
   background-attachment: fixed;
 }
+
 section.sec2{
   background: url(img/bg-Hallway.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+section.sec3{
+  background: url(img/SlaughterHouse/sec3.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -291,6 +299,10 @@ section.sec2{
 
   .sec2 {
     padding-top: 15%;
+  }
+
+  .sec3 {
+    padding-top: 5%;
   }
 
   .centerIframe {
