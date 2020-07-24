@@ -34,7 +34,7 @@
                 <img class="centerImg"src="img/logo.png" alt="Logo" style="width:310px;">
                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" style="color:#fff; font-size:28px;"><i class="fa fa-bars"></i></button>
                 <div id="navbarSupportedContent" class="collapse navbar-collapse" >
-                    <ul class="navbar-nav ml-auto" >
+                    <ul class="navbar-nav ml-auto my-10" >
                         <li class="nav-item active"><a href="index.html" class="nav-link text-uppercase font-weight-bold " style="color:white">Home &nbsp&nbsp&nbsp<span class="sr-only">(current)</span></a></li>
                         <li class="nav-item"><a href="#calendar" class="nav-link text-uppercase font-weight-bold" style="color:white">Dates &nbsp&nbsp&nbsp</a></li>
                         <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" style="color:white">Tickets &nbsp&nbsp&nbsp</a></li>
@@ -47,19 +47,28 @@
     <!-- Video Header-->
         <div class="overlay"></div>
         <video id="videoBG" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="video/trailer.mp4" type="video/mp4">
+            <source src="video/trailer.mp4" type="video/mp4">
         </video>
         <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white">
-            <br /><br /><br />Nashville's longest running haunt
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white d-sm-none d-none d-md-none d-md-block d-lg-block">
+                <br />
+                <br />
+                <br />
+                <br />
+                Nashville's longest running haunt
+            </div>
+            <div class="w-100 text-white d-block d-md-none ">
+                <br />
+                <br />
+                Nashville's longest running haunt
             </div>
         </div>
-        </div>
     </header>
+
     <br />
 
-    <!-- 1st parallax and main information -->   
+<!-- 1st parallax and main information -->   
     <section class="sec1 img-fluid">
 
     <div class="container" id="Information">
@@ -69,8 +78,8 @@
             </a>
                 <div class="media-body align-self-center">          
                     
-                    <h1 class="text-warning" style="text-align:center">EST. 1986</h1>
-                    
+                    <h1 class="text-warning DoubleFeature" style="text-align:center">EST. 1986</h1>
+                    <br/>
                     <p class="text-light" style="text-align:center">
                         Now in it’s 34th season of Haunting Nashville. <br />
                         In 2014, new Owners Stacey and Ben Dixon  of Full Moon Inc. moved 
@@ -91,34 +100,58 @@
     <br />
     </section>
 
-    <!-- ONLY VISIBLE ON SMALL SCREENS -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ONLY VISIBLE ON SMALL SCREENS -->
     <div class="d-block d-md-none ">
         <div class="divSpacer">
+            <a href="#">
             <img class="centerImg" style="width:340px; height:240px;" src="img/SlaughterHouse/logoWithHouse1.jpg" alt="" />
-        <div>
-            <h1 class="text-success insomniaFont whiteTextCenter">The Haunt</h1>
-            <p class="whiteTextCenter">Full Moon Slaughterhouse. Nashville's longest running Haunted Attraction at it's new home and 
-            new ownership at 3445 Lebanon Pike Hermitage, TN. 37076. Located just minutes off I-40 at Old Hickory Blvd and Central 
+            </a>
+            <div>
+            <h1 class="text-success SugarDeath2 whiteTextCenter">The &nbsp;&nbsp;Haunt</h1>
+            <p class="whiteTextCenter">Full Moon Slaughterhouse.
+                Nashville's longest running Haunted Attraction at it's new home and 
+            new ownership at 3445 Lebanon Pike Hermitage, TN. 37076. 
+            <p data-toggle="collapse" data-target="#collapse1" class="redTextCenter">Read more...</p>
+            <div id="collapse1" class="collapse">
+                <p class="whiteTextCenter">Located just minutes off I-40 at Old Hickory Blvd and Central 
             Pike, in the old Courtyard Theater.</p>
-
-
+            
             <p class="whiteTextCenter">&bull; Tickets are $25.</p>    
             <p class="whiteTextCenter">&bull; Kids 12 and under $15.</p>
 
             <p class="whiteTextCenter">Tickets available at the door and online at </p>
-            <p class="whiteTextCenter"><a href="http://www.fullmoonslaughterhouse.com/">www.fullmoonslaughterhouse.com</a></p>
+            <p class="whiteTextCenter"><a href="http://www.fullmoonslaughterhouse.com/">Slaughterhouse.com</a></p>
+        </div>
         </div>
     </div>
     <br /><br />
         <div class="divSpacer" >
         <div>        
-            <img class="centerImg" style="width:240px; height:240px;" src="img/FullMoonCineplex/logo.jpg" alt="" />
+            <a href="http://www.fullmooncineplex.com/" target="_blank">
+                <img class="centerImg" style="width:240px; height:240px;" src="img/FullMoonCineplex/logo.jpg" alt="" />
+            </a>
         </div>
         <div>
-            <h1 class="text-warning" style="text-align:center" >Dinner and a Movie</h1>
-            <p class="whiteTextCenter">The Full Moon Cineplex is home to Nashville's classic Dinner and a Movie theatre. Dinner and Movie $24. 
+            <h1 class="DoubleFeature text-warning" style="text-align:center" >Dinner and a Movie</h1>
+            <p class="whiteTextCenter">The Full Moon Cineplex is home to Nashville's classic Dinner and a Movie theatre. 
+                <p data-toggle="collapse" data-target="#collapse2" class="redTextCenter">Read more...</p>
+                <div id="collapse2" class="collapse"> 
+                    <p class="whiteTextCenter">
+                Dinner and Movie $24. 
             General Admission tickets are $7 for movies. If you are wanting dinner please order your tickets before 2pm on Friday or 
-            Saturday so we know how many to prepare for.
+            Saturday so we know how many to prepare for. </p>
             <p class="whiteTextCenter">We have PBR, Miller Lite, Stella, Dos Eques and Sweetwater IPA and 420, White Claws.  
             We also have Blue Moon, Angry Orchard and Catawba White Zombie on Draft. </p>
 
@@ -129,26 +162,32 @@
                 <br />
                 <p class="whiteTextCenter">You can also purchase tickets for Dinner and a Movie and 
             Haunted House movies and options available online at </p> 
-            <p class="whiteTextCenter"><a href="http://www.fullmooncineplex.com/">www.fullmooncineplex.com</a></p>
-            
+            <p class="whiteTextCenter"><a href="http://www.fullmooncineplex.com/">FullMoonCineplex.com</a></p>
+                </div>
         </div>
     </div>
 
     <br />
 
     <!-- Paralaxx 2 with LoneWolf info-->
+    
     <section class="sec2 divSpacer">
         <div id="Information">
         <div>
-            <img class="centerImg" style="width:380px; height:240px;" src="img/LWLogo.png" alt="" />
-        </div>
+            <a href="http://www.fullmooncineplex.com/" target="_blank">
+                <img style="width:380px; height:240px;" src="img/LWLogo.png" alt="" />
+            </a>        </div>
         <div>
             <h1 class="text-info SCRIPTIN whiteTextCenter">Ink and Body Art</h1>
                 <p class="text-light px-3 whiteTextCenter ">Lone Wolf Tattoo won the first ever category for the Best of Nashville Scene 
-                in 1999 and was voted Best Tattoo Studio for the next eleven years in a row. Lone Wolf Tattoo 
+                in 1999 and was voted Best Tattoo Studio for the next eleven years in a row. </p>
+                <p data-toggle="collapse" data-target="#collapse3" class="redTextCenter">Read more...</p>
+                <div id="collapse3" class="collapse">
+                    <p class="whiteTextCenter">Lone Wolf Tattoo 
                 has also won multiple years for the Best of Nashville Toast of Music City.</p>
                 <p class="whiteTextCenter">
-                <a href="www.lonewolfbodyart.net" class="px-3">www.lonewolfbodyart.net</a></p> 
+                <a href="www.lonewolfbodyart.net" class="px-3">LoneWolf.com</a></p> 
+                </div>
         </div>
         </div>
         </section>
@@ -156,15 +195,19 @@
 
         <div class="divSpacer">
         <div >        
-            <img class="centerImg" style="width:240px; height:240px;" src="img/FullmoonFestival/homepagebanner.jpg" alt="" />
+            <a href="https://www.fullmooninc.net/nashville-full-moon-tattoo-festival/" target="_blank">
+                <img class="centerImg" style="width:240px; height:240px;" src="img/FullmoonFestival/homepagebanner.jpg" alt="" />
+            </a>
         </div>
         <div
-        ><h1 class="text-info whiteTextCenter">Fullmoon Festival</h1>
+        ><h1 class="text-info whiteTextCenter Freakshow" style="font-size:60px;">Fullmoon Festival</h1>
         <p class="whiteTextCenter">18TH ANNUAL FULL MOON FESTIVAL APRIL 10TH-12TH 2020
             Nashville's Original Tattoo Convention</p>
             
             <p class="whiteTextCenter"> Will be held at the Marriott Nashville Airport Hotel</p>
         <br />
+        <p data-toggle="collapse" data-target="#collapse4" class="redTextCenter">Read more...</p>
+        <div id="collapse4" class="collapse">
             <p class="whiteTextCenter">&bull; Ticket prices are $30 for General Admission for Friday/Saturday
                 <br />
                 &bull; $20 for General Admission Sunday </p>
@@ -181,21 +224,36 @@
             <br />
             You have to be 18 years old and have ID to get a Tattoo at the Festival.
             <br />
-            For more information, visit <br /><br /><a href="https://www.fullmooninc.net/nashville-full-moon-tattoo-festival" class="px-3">Fullmoon Festival</a></p> 
+            For more information, visit <br /><br /><a href="https://www.fullmooninc.net/nashville-full-moon-tattoo-festival" class="px-3">FullmoonFestival.com</a></p> 
         </div>
         </div>
-
+</div>
     </div>
     <!-- End of xs show div -->
-    <!-- Beginning of hidden div -->
+
+
+
+
+
+
+
+
+
+
+
+<!--ONLY VISIBLE ON LARGER SCREENS-->
+
     <div class="d-sm-none d-none d-md-none d-md-block d-lg-block">
 
     <!-- Information Section 1 "Haunt and Dinner and a Movie"-->
     <div class="d-flex flex-row divSpacer">
-        <img style="width:340px; height:240px;" src="img/SlaughterHouse/logoWithHouse1.jpg" alt="" />
-    <div class="p-2"><h1 class="text-success insomniaFont">The Haunt</h1>
-        <p class="whiteText">Full Moon Slaughterhouse. Nashville's longest running Haunted Attraction at it's new home and 
-        new ownership at 3445 Lebanon Pike Hermitage, TN. 37076. Located just minutes off I-40 at Old Hickory Blvd and Central 
+        <a href="#">
+            <img class="centerImg" style="width:340px; height:240px;" src="img/SlaughterHouse/logoWithHouse1.jpg" alt="" />
+            </a>    
+            <div class="p-2">
+        <h1 class="text-success SugarDeath2">The &nbsp;&nbsp;Haunt</h1>
+        <p class="whiteText">Full Moon Slaughterhouse. <br />Nashville's longest running Haunted Attraction at it's new home <br />and 
+        new ownership at 3445 Lebanon Pike Hermitage, TN. 37076. <br />Located just minutes off I-40 at Old Hickory Blvd and Central <br />
         Pike, in the old Courtyard Theater.</p>
 
         <ul class="whiteText">
@@ -207,20 +265,22 @@
             </li> 
         </ul>
         <p class="whiteText">Tickets available at the door and online at </p>
-        <p class="whiteText"><a href="http://www.fullmoonslaughterhouse.com/">www.fullmoonslaughterhouse.com</a></p>
+        <p class="whiteText"><a href="http://www.fullmoonslaughterhouse.com/">Slaughterhouse.com</a></p>
     </div>
     </div>
 
     <div class="d-flex flex-row-reverse divSpacer" >
     <div class="p-2" >        
-        <img style="width:240px; height:240px;" src="img/FullMoonCineplex/logo.jpg" alt="" />
-    </div>
-    <div class="p-2"><h1 class="text-warning" style="text-align:right" >Dinner and a Movie</h1>
-        <p class="whiteTextAlignRight">The Full Moon Cineplex is home to Nashville's classic Dinner and a Movie theatre. Dinner and Movie $24. 
-        General Admission tickets are $7 for movies. If you are wanting dinner please order your tickets before 2pm on Friday or 
-        Saturday so we know how many to prepare for.
-        <p class="whiteTextAlignRight">We have PBR, Miller Lite, Stella, Dos Eques and Sweetwater IPA and 420, White Claws.  
-        We also have Blue Moon, Angry Orchard and Catawba White Zombie on Draft. </p>
+        <a href="http://www.fullmooncineplex.com/" target="_blank">
+            <img class="centerImg" style="width:240px; height:240px;" src="img/FullMoonCineplex/logo.jpg" alt="" />
+        </a>
+        </div>
+    <div class="p-2 "><h1 class="text-warning DoubleFeature" style="text-align:right" >Dinner and a Movie</h1>
+        <p class="whiteTextAlignRight">The Full Moon Cineplex is home to Nashville's classic Dinner and a Movie theatre. <br />Dinner and Movie $24. 
+            <br />General Admission tickets are $7 for movies. <br />If you are wanting dinner please order your tickets before 2pm on Friday or 
+            <br />Saturday so we know how many to prepare for.
+        <p class="whiteTextAlignRight"><br />We have PBR, Miller Lite, Stella, Dos Eques and Sweetwater IPA and 420, White Claws.  
+            <br />We also have Blue Moon, Angry Orchard and Catawba White Zombie on Draft. </p>
 
             <p class="whiteTextAlignRight">Tickets are $25 &bull;</p>
 
@@ -229,7 +289,7 @@
             <br />
             <p class="whiteTextAlignRight">You can also purchase tickets for Dinner and a Movie and 
         Haunted House movies and options available online at </p> 
-        <p class="whiteTextAlignRight"><a href="http://www.fullmooncineplex.com/">www.fullmooncineplex.com</a></p>
+        <p class="whiteTextAlignRight"><a href="http://www.fullmooncineplex.com/">FullMoonCineplex.com</a></p>
         
     </div>
     </div>
@@ -240,26 +300,29 @@
     <section class="sec2 divSpacer">
     <div class="d-flex flex-row" id="Information">
     <div class="p-2">
-        <img style="width:380px; height:240px;" src="img/LWLogo.png" alt="" />
+        <a href="http://www.lonewolfbodyart.net/" target="_blank">
+            <img style="width:380px; height:240px;" src="img/LWLogo.png" alt="" />
+        </a>
     </div>
     <div class="p-2">
         <h1 class="text-info SCRIPTIN">Ink and Body Art</h1>
-            <p class="text-light px-3">Lone Wolf Tattoo won the first ever category for the Best of Nashville Scene 
-            in 1999 and was voted Best Tattoo Studio for the next eleven years in a row. Lone Wolf Tattoo 
+            <p class="text-light px-3">Lone Wolf Tattoo won the first ever category for the Best of Nashville Scene <br />
+            in 1999 and was voted Best Tattoo Studio for the next eleven years in a row. <br />Lone Wolf Tattoo 
             has also won multiple years for the Best of Nashville Toast of Music City.</p>
 
-            <a href="www.lonewolfbodyart.net" class="px-3">www.lonewolfbodyart.net</a></p> 
+            <a href="www.lonewolfbodyart.net" class="px-3">LoneWolf.com</a></p> 
     </div>
-    <div class="p-2">Flex item 3</div>
+
     </div>
     </section>
     <br />
 
     <div class="d-flex flex-row-reverse divSpacer" >
     <div class="p-2" >        
-        <img style="width:240px; height:240px;" src="img/FullmoonFestival/homepagebanner.jpg" alt="" />
-    </div>
-    <div class="p-2"><h1 class="text-info" style="text-align:right">Fullmoon Festival</h1>
+        <a href="https://www.fullmooninc.net/nashville-full-moon-tattoo-festival/" target="_blank">
+            <img class="centerImg" style="width:240px; height:240px;" src="img/FullmoonFestival/homepagebanner.jpg" alt="" />
+        </a>    </div>
+    <div class="p-2"><h1 class="text-info Freakshow" style="text-align:right; font-size:60px;">Fullmoon Festival</h1>
         <p class="whiteTextAlignRight">18TH ANNUAL FULL MOON FESTIVAL APRIL 10TH-12TH 2020
             Nashville's Original Tattoo Convention</p>
             
@@ -280,14 +343,26 @@
             Professional printed Photo-Ops are being offered and the list is on the site below.
             <br />
             You have to be 18 years old and have ID to get a Tattoo at the Festival.</p>
-            <p class="whiteTextCenter">
+            <p class="whiteTextAlignRight">
                For more information, visit
                <br /><br />
-               <a href="https://www.fullmooninc.net/nashville-full-moon-tattoo-festival" class="px-3">Fullmoon Festival</a></p> 
+               <a href="https://www.fullmooninc.net/nashville-full-moon-tattoo-festival" class="px-3">FullmoonFestival.com</a></p> 
     </div>
     </div>
 
-    </div> <!-- End of hidden div -->
+    </div> 
+    
+    
+    
+    
+    
+    <!-- End of hidden div -->
+
+
+
+
+
+
 
     <br />
     <!-- Calendar -->
@@ -307,22 +382,22 @@
         <section class="sec3 img-fluid">
         <!--<img class="centerImg" style="width:140px; height:140px;" src="img/SlaughterHouse/SlaughterFaceLogo.png" alt="" />-->
             <div class="container py-3" >
-            <span style="color:green" class="px-3">&#9654;8pm - Midnight</span>
-            <span style="color:yellow" class="px-3">&#9654;8pm - 11pm</span>
-            <span style="color:blue" class="px-3">&#9654;8pm - 1pm</span>
+            <span style="color:rgb(0, 184, 0)" class="px-3">&#9654;8pm - Midnight</span><br/>
+            <span style="color:rgb(255, 196, 0)" class="px-3">&#9654;8pm - 11pm</span><br/>
+            <span style="color:rgb(69, 69, 253)" class="px-3">&#9654;8pm - 1pm</span><br/>
                 <!-- Calendar -->
                 <div class="calendar shadow bg-white p-5" >
                 <div class="d-flex align-items-center" ><i class="fa fa-calendar fa-3x mr-3"></i>
                     <h2 class="month font-weight-bold mb-0 text-uppercase">September 2020</h2>
                 </div>
                 <ol class="day-names list-unstyled">
-                    <li class="font-weight-bold text-uppercase">Sun</li>
-                    <li class="font-weight-bold text-uppercase">Mon</li>
-                    <li class="font-weight-bold text-uppercase">Tue</li>
-                    <li class="font-weight-bold text-uppercase">Wed</li>
-                    <li class="font-weight-bold text-uppercase">Thu</li>
-                    <li class="font-weight-bold text-uppercase">Fri</li>
-                    <li class="font-weight-bold text-uppercase">Sat</li>
+                    <li class="font-weight-bold text-uppercase">S</li>
+                    <li class="font-weight-bold text-uppercase">M</li>
+                    <li class="font-weight-bold text-uppercase">T</li>
+                    <li class="font-weight-bold text-uppercase">W</li>
+                    <li class="font-weight-bold text-uppercase">Th</li>
+                    <li class="font-weight-bold text-uppercase">F</li>
+                    <li class="font-weight-bold text-uppercase">S</li>
                 </ol>
             
                 <ol class="days list-unstyled">
@@ -343,14 +418,14 @@
                     </li>
                     <li>
                     <div class="date">2</div>
-                    <div class="event event all-day begin span-2 bg-success">8pm - Midnight</div>
+                    <div class="event event all-day begin span-2 bg-success">&nbsp;</div>
                     </li>
                     <li>
                     <div class="date">3</div>
                     </li>
                     <li>
                     <div class="date">4</div>
-                    <div class="event all-day end bg-success">8pm - Midnight</div>
+                    <div class="event all-day end bg-success">&nbsp;</div>
                     </li>
                     <li>
                     <div class="date">5</div>
@@ -757,7 +832,7 @@
     <img class="rounded-circle centerImg mx-auto d-block" style="width:240px; height:240px;" src="img/SlaughterHouse/theHauntZombie.PNG" alt="" />
 
     <!--Section heading-->
-    <h3 class="h1-responsive font-weight-bold text-center my-4 text-warning">Contact Us</h3>
+    <h3 class="h1-responsive font-weight-bold text-center my-4 text-warning DoubleFeature">Contact Us</h3>
     <!--Section description-->
     <p class="text-center w-responsive mx-auto mb-5" style="color:white">Do you have any questions? Please do not hesitate to contact us. We will come back to you within
     a matter of hours to help you.</p>
@@ -837,7 +912,7 @@
             <footer>
             <a id="Connect"></a>
             <div align="center">
-            <iframe class="centerIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25760.187041108948!2d-86.64185079146482!3d36.1903132250223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88646a5eec7f0815%3A0xece2c36153aab7e5!2s3445%20Lebanon%20Pike%2C%20Hermitage%2C%20TN%2037076%2C%20USA!5e0!3m2!1sen!2suk!4v1595002177496!5m2!1sen!2suk" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe class="centerIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25760.187041108948!2d-86.64185079146482!3d36.1903132250223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88646a5eec7f0815%3A0xece2c36153aab7e5!2s3445%20Lebanon%20Pike%2C%20Hermitage%2C%20TN%2037076%2C%20USA!5e0!3m2!1sen!2suk!4v1595002177496!5m2!1sen!2suk" width="350" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="col-sm-12 text-center" style="color:white">
                 <p>3445 Lebanon Pike Hermitage, Tn. 37076 </p>

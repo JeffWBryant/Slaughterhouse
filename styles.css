@@ -4,11 +4,23 @@ body {
   margin:0;
   padding:0;
   font-family: Impact, Charcoal, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   text-shadow: 2px 2px #000000;
 }
 
-.standardFont, h1, h3 {
+.SugarDeath2 {
+  font-family: SugarDeath2, Arial, sans-serif;
+  text-shadow: 2px 2px #7a7a7a;
+  font-size: 58px;
+
+}
+
+@font-face {
+  font-family: 'SugarDeath2';
+  src: url('fonts/SugarDeath2.ttf');
+}
+
+.DoubleFeature {
   font-family: DoubleFeature, Arial, sans-serif;
   text-shadow: 2px 2px #ff0000;
 
@@ -19,14 +31,25 @@ body {
   src: url('fonts/DoubleFeature.ttf'); 
 }
 
-.insomniaFont {
-  font-family: insomnia, Arial, sans-serif;
+.Freakshow {
+  font-family: Freakshow, Arial, sans-serif;
+  text-shadow: 2px 2px #e5ff00;
+
+}
+
+@font-face {
+  font-family: 'Freakshow'; 
+  src: url('fonts/Freakshow.ttf'); 
+}
+
+.insomnia {
+  font-family: Insomnia, Arial, sans-serif;
   text-shadow: 2px 2px #ff0000;
 
 }
 
 @font-face {
-  font-family: 'insomnia'; 
+  font-family: 'Insomnia'; 
   src: url('fonts/insomnia.ttf'); 
 }
 
@@ -98,7 +121,7 @@ header {
     background-image: url("img/background.jpg");
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 1500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -152,13 +175,13 @@ section.sec3{
 }
 
 .month {
-  font-size: 2rem;
+  font-size: 18px;
   color:rgb(194, 74, 74);
 }
 
 @media (min-width: 992px) {
   .month {
-    font-size: 3.5rem;
+    font-size: 18px;
   }
 }
 
@@ -183,10 +206,11 @@ section.sec3{
 
 .calendar .days li .date {
   margin: 0.5rem 0;
+
 }
 
 .calendar .days li .event {
-  font-size: 1.25rem;
+  font-size: 18px;
   padding: 0.4rem;
   color: white;
   white-space: nowrap;
@@ -323,3 +347,24 @@ section.sec3{
     color: white;
     text-align:center;
   }
+
+  .redTextCenter {
+    color: rgb(255, 0, 0);
+    text-align:center;
+  }
+
+.fontsizeMobile {
+  font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
